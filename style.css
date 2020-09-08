@@ -2,6 +2,14 @@
 html{
   background:black ;
 }
-h1{
-  color:white ;
+body {
+ text-align: center;
+}
+
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
+  color:white;
+  
 }
