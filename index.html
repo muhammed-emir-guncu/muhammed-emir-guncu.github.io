@@ -9,11 +9,24 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1 id="text1"></h1>
-    <h1 id="text2" ></h1>
-    <h1 id="text3"> </h1>
-    <button onclick="bas()">sıfırla</button>
-    
+    <form method="get">
+      <label>Kullanıcı Adı</label>
+      <input type="text" name="kadi">
+      <label>Şifre</label>
+      <input type="password" name="sifre">
+      <input type="submit" value="Giriş">
+  </form>
+  <?php 
+
+    if($_GET){
+        $Kullanici=$_GET["kadi"];
+        $Sifre=$_GET["sifre"];
+
+        echo $Kullanici.$Sifre;
+    }
+
+ ?>  
+
     <script src="script.js"></script>
 
   </body>
