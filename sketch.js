@@ -5,8 +5,7 @@ var ar=65
 var y=[]
 function setup() {
  let cnv= createCanvas(500, 500);
-  cnv.position(windowWidth/2-250,
-windowHeight/2-250)
+  cnv.position(windowWidth/2-250,windowHeight/2-250)
   da=radians(0)
   aa=radians(180)
   for(var z=0;z<80;z++){
