@@ -1,8 +1,10 @@
 html{
   background:black ;
+
 }
 body {
  text-align: center;
+  
 }
 
 h1 {
@@ -16,3 +18,7 @@ button{
   color: white;
   border-color:blue ;
 }
+canvas {
+  display: block;
+}
+
